@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV SHOW FINDER</title>
+    <link rel="stylesheet" href="../ajax-web-API/app.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center py-10 px-4 
+        
+    ">
+
+    <!-- Judul -->
+    <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+        TV SHOW FINDER</h1>
+
+    <!-- Form Pencarian -->
+    <form id="search-form" class="flex flex-col items-center mb-8 w-full max-w-md">
+        <input type="text" name="query" placeholder="Enter TV show name"
+            class="border border-gray-300 rounded-lg p-3 w-full mb-4 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+            required />
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded shadow">
+            Find
+        </button>
+    </form>
+
+    <!-- Tempat hasil gambar -->
+    <div id="results">
+        <!-- Gambar dari JS akan dimasukkan ke sini -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, maiores?</p>
+        <pre>
+                                        power:by QUERY!
+                                                                         
+                                    </pre>
+    </div>
+
+
+    <!-- Script JS -->
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+</body>
+
+</html>
